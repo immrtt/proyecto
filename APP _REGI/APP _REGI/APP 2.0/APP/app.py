@@ -4,7 +4,7 @@ import psycopg2
 app = Flask(__name__)
 
 # Configura la conexión a la base de datos
-cnx = psycopg2.connect(user="mayra", password="Riquelme1999", host="servidor-personal.postgres.database.azure.com", port=5432, database="postgres")
+cnx = psycopg2.connect(user="mayra", password="", host="servidor-personal.postgres.database.azure.com", port=5432, database="postgres")
 
 # Ruta principal que muestra el formulario HTML
 @app.route('/')
